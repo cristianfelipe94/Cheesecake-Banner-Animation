@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.banner {
+  border: 1px solid #000;
+  background: #eaeadc;
+  overflow: hidden;
+  display: none;
+}
+
+#btnExit {
+  cursor: pointer;
+  opacity: 0
+}
+
+.bannerSize {
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+
+.bannerSize img {
+  border: none;
+}
+
+.hide {
+  opacity:0;
+}
+
+.retina{
+  background-size:cover !important;
+}
+
+.aC{
+  right:0;
+  left:0;
+  margin:0 auto;
+}
+
+* {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+/*Loading images into elements*/
+.background-cheesecake-scale {
+  background: url('cheesecake-background.jpg');
+  height: 250px;
+  width: 300px;
+  transform: scale(1.2);
+  position: absolute;
+}
+
+.product-shot-position {
+  background: url('product-bottle.png');
+  height: 116px;
+  width: 70px;
+  position: absolute;
+  bottom: 0px;
+  left: 6px;
+  z-index: 50;
+}
+
+.blue-block-position {
+  background: url('blue-background.jpg');
+  height: 103px;
+  width: 300px;
+  position: absolute;
+  bottom: -5px;
+}
+
+.blue-cta-opacity {
+  background: url('blue-action-cta.png');
+  opacity: 1;
+  height: 13px;
+  width: 90px;
+  position: absolute;
+  left: 140px;
+  bottom: 7px;
+}
+
+.yellow-cta-opacity {
+  background: url('yellow-action-cta.png');
+  opacity: 0;
+  height: 13px;
+  width: 90px;
+  position: absolute;
+  left: 140px;
+  bottom: 7px;
+}
+
+.first-text-opacity {
+  background: url('text-firstline.png');
+  opacity: 1;
+  height: 30px;
+  width: 182px;
+  position: absolute;
+  left: 96px;
+  bottom: 28px;
+}
+
+.second-text-opacity {
+  background: url('text-secondline.png');
+  opacity: 0;
+  height: 11px;
+  position: absolute;
+  width: 104px;
+  bottom: 52px;
+  left: 134px;
+}
+
+.third-text-magicappear {
+  background: url('first-written-text.png');
+  opacity: 0;
+  width: 112px;
+  height: 24px;
+  position: absolute;
+  bottom: 25px;
+  left: 130px;
+}
+
+.first-hit-magicappear {
+  background: url('first-hit-phrase.png');
+  opacity: 0;
+  height: 28px;
+  width: 90px;
+  position: absolute;
+  left: 95px;
+  bottom: 67px;
+}
+
+.first-arrow-magicappear {
+  background: url('first-arrow-anim.png');
+  opacity: 0;
+  height: 29px;
+  width: 125px;
+  position: absolute;
+  left: 76px;
+  bottom: 57px;
+}
+
+.second-hit-magicappear {
+  background: url('second-hit-phrase.png');
+  opacity: 0;
+  height: 28px;
+  width: 65px;
+  position: absolute;
+  left: 206px;
+  bottom: 74px;
+}
+
+.second-arrow-magicappear {
+  background: url('second-arrow-anim.png');
+  opacity: 0;
+  height: 92px;
+  width: 22px;
+  position: absolute;
+  left: 265px;
+  bottom: 50px;
+}
