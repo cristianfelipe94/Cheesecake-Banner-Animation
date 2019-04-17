@@ -1,6 +1,5 @@
 @charset "UTF-8";
 .banner {
-  border: 1px solid #000;
   background: #eaeadc;
   overflow: hidden;
   display: none;
