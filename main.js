@@ -98,4 +98,8 @@ function actionsButton(){
         TweenMax.to('.second-text-opacity', 1.2,{ease: Power1.easeOut, opacity: ('1')})
         TweenMax.to('.third-text-magicappear', 1.2,{ease: Power1.easeOut, opacity: ('1')})
     });
+    const looperBanner = function() {
+        location.reload();
+    }
+    setTimeout(looperBanner, 5000);
 }
